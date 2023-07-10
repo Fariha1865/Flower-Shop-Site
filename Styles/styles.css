@@ -18,7 +18,23 @@
     color: white;
     /* font-size: 20px; */
     font-weight: 500;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
+
+.btn_primary:hover {
+    background-color: #6d031d;
+    color: white;
+  }
+
+/* shared Style to make text color magenta */
+.magenta_text{
+
+    color: rgb(233, 99, 99);
+}
+
+
+                        /* HEADER SECTION */
 
 
 /* parent div of banner section */
@@ -36,7 +52,7 @@
 /* banner header */
 #banner_header{
     color: #272727;
-    font-size: 55px;
+    font-size: 52px;
     font-style: normal;
     font-weight: 800;
     width: 90%;
@@ -46,7 +62,7 @@
 }
 /* banner text-description */
 #banner_text{
-    color: rgba(24, 22, 22, 0.6);
+    color: rgba(22, 20, 20, 0.7);
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -56,8 +72,15 @@
 }
 /* banner image */
 #banner_image{
+
+    
     width: 500px;
     height: 100vh;
 
 }
 
+                        /* MAIN SECTION */
+
+            /* Featured Flowers SECTION */
+
+         
