@@ -227,3 +227,34 @@ figcaption{
     font-weight: 600;
     
 }
+
+                  /* Hot Deals section */
+
+/* Hot Deals section parent divi9 */
+.deals_section_container{
+
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 250px;
+    background-color: rgba(229, 84, 115, 0.10);
+    text-align: center;
+}
+
+#deals_header{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    
+}
+
+#deals_description{
+    color: rgba(39, 39, 39, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+}
