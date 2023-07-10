@@ -120,7 +120,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     
 }
 .featured_Images_holder{
@@ -131,13 +131,14 @@
 /* Style for featured images captions */
 figcaption{
     
-    text-decoration:underline;
+    text-decoration:2px solid underline;
     text-align: center;
     color: #272727;
     font-size: 15px;
     font-style: normal;
     font-weight: 550;
     margin-top: 10px;
+    text-decoration-color: rgb(230, 86, 86);
 }
 
 
@@ -188,3 +189,41 @@ figcaption{
 
 }
 
+                  /* Support & Services section */
+
+
+/* Support & Services section elements container */
+.Service_Section_Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(71, 71, 71, 0.08);
+    padding: 100px;
+    margin: 100px 160px;
+    box-shadow: 0px 0px 6px 6px #ebe7e7;
+  
+}
+/* Support & Services Icons & Texts holder*/
+.Services_and_Supports{
+    display: flex;
+    gap: 90px;
+    text-align: center;
+    
+   
+}
+
+/* Styling support and services section icons and icon descriptions*/
+
+.Icon{
+
+    width: 70px;
+    height: 70px;
+}
+.icon_description{
+
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    
+}
