@@ -101,7 +101,7 @@
     margin-bottom: 10px;
 }
 
-/* Featured section Description */
+/* Featured section description */
 #featured_text{
     
     color: rgba(17, 15, 15, 0.9);
@@ -115,14 +115,18 @@
     
 }
 
-/* To Display featured images side by side */
+/* To Display featured images side by side and in center*/
 .featured_section_container{
     display: flex;
-    gap: 25px;
-    margin-left: 140px;
-    margin-right: 80px;
+    align-items: center;
+    justify-content: space-around;
     margin-bottom: 200px;
-    /* align-items: center; */
+    
+}
+.featured_Images_holder{
+    display: flex;
+    gap: 25px;
+    
 }
 /* Style for featured images captions */
 figcaption{
