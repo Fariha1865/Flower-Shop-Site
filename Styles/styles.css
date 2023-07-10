@@ -22,6 +22,7 @@
     cursor: pointer;
 }
 
+/* To make buttons hoverable */
 .btn_primary:hover {
     background-color: #6d031d;
     color: white;
@@ -30,7 +31,7 @@
 /* shared Style to make text color magenta */
 .magenta_text{
 
-    color: rgb(233, 99, 99);
+    color: rgb(230, 86, 86);
 }
 
 
@@ -83,4 +84,103 @@
 
             /* Featured Flowers SECTION */
 
-         
+/* Featured images parent container */
+.Featured_Flower{
+    margin-top: 100px;
+    text-align: center;
+
+    
+}
+
+/* Featured section header */
+#Featured_Header{
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+/* Featured section Description */
+#featured_text{
+    
+    color: rgba(17, 15, 15, 0.9);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 40px;
+    
+    
+}
+
+/* To Display featured images side by side */
+.featured_section_container{
+    display: flex;
+    gap: 25px;
+    margin-left: 140px;
+    margin-right: 80px;
+    margin-bottom: 200px;
+    /* align-items: center; */
+}
+/* Style for featured images captions */
+figcaption{
+    
+    text-decoration:underline;
+    text-align: center;
+    color: #272727;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 550;
+    margin-top: 10px;
+}
+
+
+/* Hover on Parent Container */
+.content_img:hover{
+    cursor: pointer;
+    
+}
+
+
+/* Pink Flower Tree */
+.featured_pic_1{
+
+    position: relative;
+    float: left;
+    background-color: rgba(167, 33, 98, 0.15);
+    padding: 30px 25px 0px 25px;
+    height: 350px;
+    width: 280px;
+    border-radius: 150px 150px 0 0;
+    text-decoration:underline;
+    margin-bottom: 10px;
+    
+  
+
+}
+
+/* Mixed Bouquet */
+.featured_pic_2{
+
+    background-color: rgba(5, 151, 160, 0.15);
+    padding: 30px 25px 0px 25px;
+    height: 350px;
+    width: 280px;
+    border-radius: 150px 150px 0 0;
+
+
+}
+/* Yellow Flower Tree */
+.featured_pic_3{
+
+    background-color: rgba(71, 125, 17, 0.15);
+    padding: 30px 25px 0px 25px;
+    height: 350px;
+    width: 280px;
+    border-radius: 150px 150px 0 0;
+
+
+}
+
