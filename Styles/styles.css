@@ -346,3 +346,22 @@ input[type=text],input[type=number],input[type=date]{
 
 
 
+.hr{
+    width: 110px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+    border: 1.5px dotted #f19bb1;
+}
+select{
+    border: 1px solid #f19bb1;
+    padding: 5px;
+    width: 300px;
+    outline-color:#f19bb1;
+}
+legend{
+    margin-top: 20px;
+    
+}
+
+         /* Latest Deals Section */
+
