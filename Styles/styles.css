@@ -309,6 +309,7 @@ figcaption{
 /* Order section Parent Div */
  .Order_container{
     margin: 140px ;
+    margin-bottom: 0px;
     box-shadow: 0px 0px 8px 8px #f1d8d8;
     padding: 50px;
     display: flex;
@@ -336,7 +337,7 @@ figcaption{
     
 }
 
-input[type=text],input[type=number],input[type=date]{
+.Order_box input[type=text],input[type=number],input[type=date]{
     border: 1px solid #f19bb1;
     padding: 5px;
     width: 290px;
@@ -365,3 +366,16 @@ legend{
 
          /* Latest Deals Section */
 
+.Latest_Deals_Container{
+    background-image: url('../images/deals_back.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px;
+    margin: 100px 140px;
+    height: 100px;
+    text-align: center;
+}
+
+#Deals_Text_Box{
+    
+}
