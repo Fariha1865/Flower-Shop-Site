@@ -405,6 +405,7 @@ legend{
     text-align: center;
     background-color: #111010;
     padding: 100px;
+    
   
 }
 
@@ -416,7 +417,23 @@ legend{
 .footer_text{
     color: white;
     justify-content: center;
+    margin-bottom: 20px;
 }
 #copyright{
-    
+
+   color: rgba(255, 255, 255, 0.40);
+   text-align: center;
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 400;
+}
+.social_links{
+    text-align: center;
+    margin-top: 20px;
+ 
+  
+}
+.social_links img{
+   
+    margin-left: 10px;
 }
