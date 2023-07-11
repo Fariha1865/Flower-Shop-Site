@@ -372,10 +372,27 @@ legend{
     background-repeat: no-repeat;
     padding: 100px;
     margin: 100px 140px;
-    height: 100px;
+    height: 150px;
     text-align: center;
 }
 
 #Deals_Text_Box{
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    border: none;
+}
+
+
+#latest_deals_header{
+    margin-bottom: 10px;
+}
+
+.btn-sub{
     
+    height: 60px;
+    margin-left: 10px;
 }
