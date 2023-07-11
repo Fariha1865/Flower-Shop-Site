@@ -366,6 +366,7 @@ legend{
 
          /* Latest Deals Section */
 
+/* Latest Deals Parent Div */
 .Latest_Deals_Container{
     background-image: url('../images/deals_back.png');
     background-size: cover;
@@ -375,7 +376,7 @@ legend{
     height: 150px;
     text-align: center;
 }
-
+/* Latest Deals input box */
 #Deals_Text_Box{
     border-radius: 8px;
     background: #FFF;
@@ -386,7 +387,7 @@ legend{
     border: none;
 }
 
-
+/* Latest Deals button and header */
 #latest_deals_header{
     margin-bottom: 10px;
 }
@@ -395,4 +396,27 @@ legend{
     
     height: 60px;
     margin-left: 10px;
+}
+
+                /* Footer Section */
+
+.Footer_Container{
+
+    text-align: center;
+    background-color: #111010;
+    padding: 100px;
+  
+}
+
+#footer_header{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer_text{
+    color: white;
+    justify-content: center;
+}
+#copyright{
+    
 }
