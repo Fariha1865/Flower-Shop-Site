@@ -189,7 +189,13 @@ figcaption{
 
 }
 
-                  /* Support & Services section */
+.featured_pic_1, .featured_pic_2, .featured_pic_3:hover{
+
+    cursor: pointer;
+    
+    
+}
+            /* Support & Services section */
 
 
 /* Support & Services section elements container */
@@ -375,6 +381,7 @@ legend{
     margin: 100px 140px;
     height: 150px;
     text-align: center;
+
 }
 /* Latest Deals input box */
 #Deals_Text_Box{
@@ -385,10 +392,17 @@ legend{
     margin-bottom: 50px;
     padding-left: 20px;
     border: none;
+    outline-color:#f19bb1;
+    
 }
-
+#Deals_Text_Box input[type=text]
+{
+    border: 1px solid #f19bb1;
+    outline-color:#f19bb1;
+}
 /* Latest Deals button and header */
 #latest_deals_header{
+
     margin-bottom: 10px;
 }
 
@@ -400,6 +414,7 @@ legend{
 
                 /* Footer Section */
 
+/* Footer Parent Div */
 .Footer_Container{
 
     text-align: center;
@@ -409,6 +424,7 @@ legend{
   
 }
 
+/* Footer Header and Description */
 #footer_header{
     color: white;
     margin-bottom: 20px;
@@ -419,6 +435,8 @@ legend{
     justify-content: center;
     margin-bottom: 20px;
 }
+
+/* Copyright div */
 #copyright{
 
    color: rgba(255, 255, 255, 0.40);
@@ -427,6 +445,7 @@ legend{
    font-style: normal;
    font-weight: 400;
 }
+/* social links div */
 .social_links{
     text-align: center;
     margin-top: 20px;
