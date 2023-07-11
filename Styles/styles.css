@@ -75,7 +75,7 @@
 #banner_image{
 
     
-    width: 500px;
+    width: 510px;
     height: 100vh;
 
 }
@@ -102,7 +102,7 @@
 }
 
 /* Featured section description */
-#featured_text{
+.description_text{
     
     color: rgba(17, 15, 15, 0.9);
     font-size: 15px;
@@ -230,7 +230,7 @@ figcaption{
 
                   /* Hot Deals section */
 
-/* Hot Deals section parent div */
+/* Hot Deals section parent divi */
 .deals_section_container{
 
     height: 40vh;
@@ -240,17 +240,16 @@ figcaption{
     padding: 100px 250px;
     background-color: rgba(229, 84, 115, 0.10);
     text-align: center;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
-/* Hot Deals section header */
 #deals_header{
     font-size: 30px;
     font-style: normal;
     font-weight: 800;
     
 }
-/* Hot Deals section description */
+
 #deals_description{
     color: rgba(39, 39, 39, 0.70);
     font-size: 16px;
@@ -260,8 +259,46 @@ figcaption{
     margin: auto;
     padding: 20px;
 }
-/* red flower bouquet image */
+
 #deals_flower_image{
     width: 250px;
     height: 320px
+}
+
+            /* Instagram Section */
+
+/* Header, header icon & description div*/
+
+.Instagram_container{
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+#insta{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:underline;
+    text-decoration-color: #f13967;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    color: #272727;
+}
+
+#insta_icon{
+
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    
+}
+
+
+.insta_pics{
+    width: 250px;
+    height: 290px;
+    margin-left: 20px;
 }
