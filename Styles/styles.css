@@ -578,3 +578,120 @@ legend{
     font-size: 12px;
    }
 }
+
+@media screen and (min-width:576px) and (max-width: 1000px){
+    
+    .Banner_Container{
+        overflow: hidden;
+        padding: 70px 20px;
+        margin: 0px;
+        gap: 0px;
+        height: 50vh;
+       
+        
+       
+    }
+    #banner_image{
+        margin-top: 50%;
+        height:60vh;
+        width: 170px;
+    }
+    #banner_header{
+
+        font-size: 20px;
+    }
+    #banner_text{
+        font-size: 10px;
+        
+    }
+
+
+    .featured_pic_1,.featured_pic_2,.featured_pic_3{
+
+        height: 60px;
+        width: 60px;
+        
+
+    }
+    .featured_pic_1{
+        margin-left: 10px;
+    }
+    .featured_Images_holder{
+      gap: 10px;
+    } 
+
+    .Featured_Flower{
+        margin-top: 50px;
+    }
+ 
+    .description_text,.Featured_Header{
+        text-align: center;
+        width: 100%;
+        font-size: 15px;
+        
+       
+    }
+
+    .Service_Section_Container{
+        margin: 10px;
+        padding: 50px;
+    }
+
+    .Services_and_Supports{
+        gap: 50px;
+    }
+    .deals_section_container{
+        
+        flex-direction: row-reverse;
+        padding: 80px 100px;
+        overflow: hidden;
+        margin-top: 30px;
+   
+        
+    }
+
+    .deals_texts{
+        margin-right: 20px;
+    }
+    #deals_header{
+        font-size: 20px;
+    }
+    #deals_description{
+
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .play{
+        padding: 10px 15px;
+    }
+
+    .Instagram_container{
+        padding: 20px;
+        
+    }
+
+    .Order_container{
+        margin: 20px;
+      
+    }
+    .Order_box{
+        flex-direction: column;
+    }
+
+    .Latest_Deals_Container{
+        padding: 30px 20px;
+        margin:20px;
+        margin-bottom: 60px;
+    }
+    #Deals_Text_Box{
+        width: 170px;
+    }
+    .btn-sub{
+        padding: 5px 10px;
+    }
+  
+   figcaption{
+    font-size: 12px;
+   }
+}
