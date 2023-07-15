@@ -477,7 +477,7 @@ legend{
     #banner_image{
         margin-top: 50%;
         height:60vh;
-        width: 165px;
+        width: 170px;
     }
     #banner_header{
 
@@ -574,4 +574,7 @@ legend{
         padding: 5px 10px;
     }
   
+   figcaption{
+    font-size: 12px;
+   }
 }
